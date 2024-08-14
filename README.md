@@ -3,6 +3,10 @@
 
 ![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)(https://demo-st-learning-sahil.streamlit.app/)
 
+# Abouts:
+
+Streamlit is an open-source app framework designed for creating and deploying data-driven web applications quickly and easily, using only Python scripts. It allows developers to transform data scripts into interactive and beautiful apps without the need for front-end experience. To start using Streamlit, you first need to install it via pip with `pip install streamlit`. Once installed, you can run a Streamlit app by executing the command `streamlit run your_script.py`. Streamlit offers a range of commands and widgets that make building interactive applications straightforward. Some of the essential commands include `st.title()` for setting the app title, `st.header()` and `st.subheader()` for different levels of headings, and `st.text()` for adding simple text. For displaying data, you can use `st.write()`, which automatically formats your data depending on its type, or `st.dataframe()` for interactive tables. You can also create various input widgets like `st.button()`, `st.slider()`, `st.selectbox()`, and `st.text_input()` to capture user input. Additionally, Streamlit supports charting libraries like Matplotlib, Plotly, and Altair through commands such as `st.pyplot()` and `st.plotly_chart()`. Once your app is ready, you can share it with others by deploying it to a web server, or using `Streamlit Cloud` for hosting. Streamlit’s simplicity and versatility make it an excellent choice for data scientists and engineers looking to create web applications efficiently.
+
 Author:
 * @sahilkumardhala : https://github.com/sahilkumardhala/sahilkumardhala
 
