@@ -1,14 +1,14 @@
 # Streamlit-LEARNING
 ![Streamlit-LEARNING-iamge](streamlitlogo.png)
 
-![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
+![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)(https://demo-st-learning-sahil.streamlit.app/)
 
 Author:
 * @sahilkumardhala : https://github.com/sahilkumardhala/sahilkumardhala
 
 
 # Deployments
-[Streamlit-LEARNING - Sharing for Streamlit]()
+[Streamlit-LEARNING - Sharing for Streamlit](https://demo-st-learning-sahil.streamlit.app/)
 
 # Show me
 ![Streamlit-LEARNING-iamge]()
