@@ -1,6 +1,15 @@
 import streamlit as st
+import streamlit as st
+from pathlib import Path
+import base64
 # from streamlit import *
 # Set the app title
+
+st.set_page_config(
+     page_title='Streamlit-LEARNING',
+     layout="wide",
+     initial_sidebar_state="expanded",
+)
 
 st.title("Streamlit-LEARNING")
 st.subheader("This is My subheader")
@@ -20,20 +29,13 @@ st.markdown("###### h6 tag")
 st.markdown(">hello")
 
 
-
-
-
-import streamlit as st
-from pathlib import Path
-import base64
-
 # Initial page config
 
-st.set_page_config(
-     page_title='Streamlit cheat sheet',
-     layout="wide",
-     initial_sidebar_state="expanded",
-)
+# st.set_page_config(
+#      page_title='Streamlit-LEARNING',
+#      layout="wide",
+#      initial_sidebar_state="expanded",
+# )
 
 def main():
     cs_sidebar()
@@ -52,8 +54,8 @@ def img_to_bytes(img_path):
 
 def cs_sidebar():
 
-    st.sidebar.markdown('''[<img src='data:image/png;base64,{}' class='img-fluid' width=32 height=32>](https://streamlit.io/)'''.format(img_to_bytes("logomark_website.png")), unsafe_allow_html=True)
-    st.sidebar.header('Streamlit cheat sheet')
+    st.sidebar.markdown('''[<img src='data:image/png;base64,{}' class='img-fluid' width=32 height=32>](https://streamlit.io/)'''.format(img_to_bytes("streamlitlogo.png")), unsafe_allow_html=True)
+    st.sidebar.header('Streamlit-LEARNING')
 
     st.sidebar.markdown('''
 <small>Summary of the [docs](https://docs.streamlit.io/), as of [Streamlit v1.25.0](https://www.streamlit.io/).</small>
