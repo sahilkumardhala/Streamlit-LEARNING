@@ -1,7 +1,7 @@
 # Streamlit-LEARNING
+![Streamlit-LEARNING-iamge](streamlitlogo.png)
 
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)()]
+![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
 
 Author:
 * @sahilkumardhala : https://github.com/sahilkumardhala/sahilkumardhala
