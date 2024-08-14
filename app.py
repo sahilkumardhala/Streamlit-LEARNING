@@ -12,22 +12,6 @@ st.set_page_config(
 )
 
 st.title("Streamlit-LEARNING")
-st.subheader("This is My subheader")
-st.header("This is My header")
-st.text("Hi, i am text function and it work like paragraph tag.")
-st.markdown("Markdown")
-st.markdown("---") # Stright line
-st.markdown("Bold text:- **Hello!** ")
-st.markdown("Italic text:- *Hello!* ")
-st.markdown("---") # Stright line
-st.markdown("# h1 tag")
-st.markdown("## h2 tag")
-st.markdown("### h3 tag")
-st.markdown("#### h4 tag")
-st.markdown("##### h5 tag")
-st.markdown("###### h6 tag")
-st.markdown(">hello")
-
 
 # Initial page config
 
@@ -102,7 +86,7 @@ pip install streamlit-nightly --upgrade
     st.sidebar.markdown('<small>Learn more about [experimental features](https://docs.streamlit.io/library/advanced-features/prerelease#beta-and-experimental-features)</small>', unsafe_allow_html=True)
 
     st.sidebar.markdown('''<hr>''', unsafe_allow_html=True)
-    st.sidebar.markdown('''<small>[Cheat sheet v1.25.0](https://github.com/daniellewisDL/streamlit-cheat-sheet)  | Aug 2023 | [Daniel Lewis](https://daniellewisdl.github.io/)</small>''', unsafe_allow_html=True)
+    st.sidebar.markdown('''<small>[Cheat sheet v1.25.0](https://github.com/sahilkumardhala/Streamlit-LEARNING)  | Aug 2024 | [Sahilkumardhala](https://sahilkumardhala.github.io/)</small>''', unsafe_allow_html=True)
 
     return None
 
@@ -210,15 +194,48 @@ st.experimental_rerun()
     col1.subheader('Personalize apps for users')
     col1.code('''
 # Show different content based on the user's email address.
->>> if st.user.email == 'jane@email.com':
->>>    display_jane_content()
->>> elif st.user.email == 'adam@foocorp.io':
->>>    display_adam_content()
+>>> if st.user.email == 'sahildhala123@email.com':
+>>>    display_sahil_content()
+>>> elif st.user.email == 'mr.spy@gmail.com':
+>>>    display_mrSpy_content()
 >>> else:
 >>>    st.write("Please contact us to get access!")
 ''')
-
-
+    
+    st.markdown("# Display interactive widgets")
+    st.code("""
+st.subheader("This is My subheader")
+    st.header("This is My header")
+    st.text("Hi, i am text function and it work like paragraph tag.")
+    st.markdown("Markdown")
+    st.markdown("---") # Stright line
+    st.markdown("Bold text:- **Hello!** ")
+    st.markdown("Italic text:- *Hello!* ")
+    st.markdown("---") # Stright line
+    st.markdown("# h1 tag")
+    st.markdown("## h2 tag")
+    st.markdown("### h3 tag")
+    st.markdown("#### h4 tag")
+    st.markdown("##### h5 tag")
+    st.markdown("###### h6 tag")
+    st.markdown(">hello")
+            
+        """)
+    st.subheader("This is My subheader")
+    st.header("This is My header")
+    st.text("Hi, i am text function and it work like paragraph tag.")
+    st.markdown("Markdown")
+    st.markdown("---") # Stright line
+    st.markdown("Bold text:- **Hello!** ")
+    st.markdown("Italic text:- *Hello!* ")
+    st.markdown("---") # Stright line
+    st.markdown("# h1 tag")
+    st.markdown("## h2 tag")
+    st.markdown("### h3 tag")
+    st.markdown("#### h4 tag")
+    st.markdown("##### h5 tag")
+    st.markdown("###### h6 tag")
+    st.markdown(">hello")
     #######################################
     # COLUMN 2
     #######################################
